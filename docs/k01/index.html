@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ja">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>K01 画像形式の実機検証</title>
+<style>
+body{font:16px/1.7 system-ui,sans-serif;max-width:1000px;margin:24px auto;padding:0 16px;color:#18313d}label{display:block;margin:12px 0}input,select,button,textarea{font:inherit;max-width:100%;box-sizing:border-box}button{margin:8px 8px 8px 0;padding:8px 14px}article{border:1px solid #aabcc5;border-radius:8px;padding:16px;margin:16px 0}img{max-width:100%;max-height:240px}pre{white-space:pre-wrap;overflow-wrap:anywhere}textarea{width:100%;min-height:80px}.muted{color:#516974}
+</style>
+<h1>K01 画像形式の実機検証</h1>
+<p>写真はサーバーへ送信しません。これはブラウザが選択後に返すFileとローカル表示の検証です。実投稿・署名URL・一括保存の検証は含みません。</p>
+<p class="muted">元画像の形式が分かる写真で試してください。共有APIはHTTPS等の安全なコンテキストが必要です。保存ボタンの実行だけでは保存成功になりません。端末で確認して結果を入力してください。</p>
+<label>端末・OS・ブラウザのバージョン <input id="device" placeholder="例：iPhone / iOS … / Safari …"></label>
+<label>選択元 <select id="source"><option>写真ライブラリ</option><option>ファイル</option><option>その他</option></select></label>
+<label>accept設定 <select id="accept"><option value="image/jpeg,image/png,image/heic,image/heif,.jpg,.jpeg,.png,.heic,.heif">形式を明示（MVP候補）</option><option value="image/*">image/*</option><option value="image/jpeg,image/png">JPEG・PNGのみ（変換挙動の比較）</option><option value="">指定なし</option></select></label>
+<label>画像を選択 <input id="files" type="file" multiple accept="image/jpeg,image/png,image/heic,image/heif,.jpg,.jpeg,.png,.heic,.heif"></label>
+<p>設定を変えて同じ原本を選び直すと比較できます。結果は蓄積されるので、容量集計では重複に注意してください。</p>
+<button id="export" type="button">結果JSONを保存</button><button id="reset" type="button">結果をクリア</button>
+<p id="status" role="status" aria-live="polite"></p>
+<pre id="summary"></pre><section id="results" aria-label="検証結果"></section>
+<script type="module" src="./probe.js"></script>
+</html>
