@@ -1,0 +1,49 @@
+{
+  "exportedAt": "2026-11-23T14:01:55.573Z",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "secureContext": true,
+  "scope": "選択後File・ローカル表示・手動保存。実投稿は未検証。",
+  "summary": {
+    "count": 2,
+    "totalBytes": 1704029,
+    "meanBytes": 852014.5,
+    "maxBytes": 1597460,
+    "projected100Bytes": 85201450
+  },
+  "records": [
+    {
+      "device": "WindowsのPC、Chrome",
+      "source": "ファイル",
+      "accept": "image/jpeg,image/png,image/heic,image/heif,.jpg,.jpeg,.png,.heic,.heif",
+      "testedAt": "2026-11-23T13:29:13.275Z",
+      "name": ".woman_attack_jump2-components.png",
+      "mime": "image/png",
+      "sizeBytes": 1597460,
+      "headerGuess": "PNG",
+      "preview": "表示成功 1024×1536",
+      "upload": "未検証（送信なし）",
+      "share": "未実施",
+      "download": "未実施",
+      "originalFormat": "不明",
+      "savedResult": "未確認",
+      "notes": ""
+    },
+    {
+      "device": "WindowsのPC、Chrome",
+      "source": "ファイル",
+      "accept": "image/jpeg,image/png,image/heic,image/heif,.jpg,.jpeg,.png,.heic,.heif",
+      "testedAt": "2026-11-23T13:30:17.932Z",
+      "name": "left_2.png",
+      "mime": "image/png",
+      "sizeBytes": 106569,
+      "headerGuess": "PNG",
+      "preview": "表示成功 256×400",
+      "upload": "未検証（送信なし）",
+      "share": "共有API完了（保存成功は別途確認）",
+      "download": "ダウンロード操作実行（保存成功は別途確認）",
+      "originalFormat": "不明",
+      "savedResult": "ファイル／ダウンロード",
+      "notes": "写真と画像サイズともに表示出来た。\nダウンロードするとファイル/ダウンロードに保存された\n共有画面が開くことも確認できた\n保存した写真も開けた"
+    }
+  ]
+}

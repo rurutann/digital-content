@@ -1,0 +1,49 @@
+{
+  "exportedAt": "2026-11-23T14:06:03.387Z",
+  "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Mobile/15E148 Safari/604.1",
+  "secureContext": true,
+  "scope": "選択後File・ローカル表示・手動保存。実投稿は未検証。",
+  "summary": {
+    "count": 2,
+    "totalBytes": 8944116,
+    "meanBytes": 4472058,
+    "maxBytes": 8531708,
+    "projected100Bytes": 447205800
+  },
+  "records": [
+    {
+      "device": "iPhone 17",
+      "source": "写真ライブラリ",
+      "accept": "image/jpeg,image/png,image/heic,image/heif,.jpg,.jpeg,.png,.heic,.heif",
+      "testedAt": "2026-11-23T13:50:48.886Z",
+      "name": "IMG_9045.jpeg",
+      "mime": "image/jpeg",
+      "sizeBytes": 8531708,
+      "headerGuess": "JPEG",
+      "preview": "表示成功 4283×5711",
+      "upload": "未検証（送信なし）",
+      "share": "キャンセル等により中断",
+      "download": "ダウンロード操作実行（保存成功は別途確認）",
+      "originalFormat": "不明",
+      "savedResult": "両方",
+      "notes": ""
+    },
+    {
+      "device": "iPhone 17",
+      "source": "写真ライブラリ",
+      "accept": "image/jpeg,image/png,image/heic,image/heif,.jpg,.jpeg,.png,.heic,.heif",
+      "testedAt": "2026-11-23T13:53:54.104Z",
+      "name": "IMG_8981.png",
+      "mime": "image/png",
+      "sizeBytes": 412408,
+      "headerGuess": "PNG",
+      "preview": "表示成功 1206×2622",
+      "upload": "未検証（送信なし）",
+      "share": "キャンセル等により中断",
+      "download": "ダウンロード操作実行（保存成功は別途確認）",
+      "originalFormat": "不明",
+      "savedResult": "両方",
+      "notes": "写真と画像サイズともに表示できた\nダウンロードすると両方に保存された\n共有画面が開くことも確認できた\n保存した写真も開けた"
+    }
+  ]
+}
