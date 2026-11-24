@@ -1,0 +1,32 @@
+{
+  "exportedAt": "2026-11-24T09:04:09.442Z",
+  "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+  "secureContext": true,
+  "scope": "選択後File・ローカル表示・手動保存。実投稿は未検証。",
+  "summary": {
+    "count": 1,
+    "totalBytes": 804957,
+    "meanBytes": 804957,
+    "maxBytes": 804957,
+    "projected100Bytes": 80495700
+  },
+  "records": [
+    {
+      "device": "Android",
+      "source": "写真ライブラリ",
+      "accept": "image/jpeg,image/png,image/heic,image/heif,.jpg,.jpeg,.png,.heic,.heif",
+      "testedAt": "2026-11-24T09:03:08.678Z",
+      "name": "1000034306.jpg",
+      "mime": "image/jpeg",
+      "sizeBytes": 804957,
+      "headerGuess": "JPEG",
+      "preview": "表示成功 2712×1220",
+      "upload": "未検証（送信なし）",
+      "share": "キャンセル等により中断",
+      "download": "ダウンロード操作実行（保存成功は別途確認）",
+      "originalFormat": "不明",
+      "savedResult": "ファイル／ダウンロード",
+      "notes": "全部ok"
+    }
+  ]
+}
