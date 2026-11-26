@@ -1,0 +1,3 @@
+# Sites専用のGit作業フォルダと配信用アーカイブ（元コードはdocs/k01/）
+/k01-probe/
+/k01-probe-deploy.tar.gz
