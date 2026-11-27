@@ -5,6 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "setup": "npm ci --include=dev",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
